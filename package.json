@@ -1,0 +1,29 @@
+{
+  "name": "stream_key",
+  "version": "1.0.0",
+  "description": "Stream key over WebSocket",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "server" : "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcn59/stream_key.git"
+  },
+  "keywords": [
+    "stream",
+    "websocket"
+  ],
+  "author": "gcn (gabrielc.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcn59/stream_key/issues"
+  },
+  "homepage": "https://github.com/gcn59/stream_key#readme",
+  "dependencies": {
+    "linebyline": "^1.3.0",
+    "socket.io": "^4.5.0",
+    "socket.io-client": "^4.5.0"
+  }
+}
